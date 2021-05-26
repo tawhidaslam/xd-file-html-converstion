@@ -1,0 +1,182 @@
+@media only screen and (max-width: 1300px){
+
+    .first-box{
+        width: 100%;
+        margin: auto;
+    }
+    .second-box{
+        width: 100%;
+        margin-left: auto;
+    }
+    .third-box{
+        width: 100%;
+        margin-left: auto;
+    }
+    .about-content{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .header{
+        background:url(../img/mobile-header.png);
+        background-position:right top;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+ 
+
+   .article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+        display: block;
+        padding-bottom: 10px;
+    }
+    header{
+        height: auto;
+        padding-bottom: 50px;
+    }
+    header .logo-area img{
+        margin-top: 20px;
+    }
+    .main-nav{
+        display: none;
+    }
+    .hero-content{
+        padding-top: 50px;
+    }
+    
+    .mobile-menu span{
+        display: block;
+    }
+    .hero-right-img{
+        width: 80%;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+
+    .hero-content h1{
+        color: #000;
+    }
+    .hero-content .span2{
+        color: #fff;
+    }
+    nav{
+        background: #fff;
+    }
+    #footer-content{
+        width: 100%;
+    }
+    header{
+        background: url(../img/mobile-header.png);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+    }
+  }
+  @media only screen and (min-width: 1200px){
+      .about-left img{
+          position: absolute;
+          bottom: 0;
+          left: 0;
+      }
+      
+  }
+
+  @media only screen and (max-width: 992px){
+    .about-left{
+        width: 80%;
+        margin: auto;
+    }
+    
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    .hero-area .hero-main{
+        text-align: center;
+    }
+    .about-content .about-text{
+        text-align: center;
+    }
+
+
+    .hero-content h1{
+        font-size: 40px;
+    }
+    .hero-content{
+        padding-top: 50px;
+    }
+    .hero-content .small-description{
+        font-size: 19px;
+    }
+    #ecosystem{
+        width: 100%;
+    }
+    #about-us {
+        width: 100%;
+    }
+    .first-box{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .about-content{
+        width: 100%;
+        margin: auto;
+    }
+    .second-box{
+        width: 100%;
+        margin-left: auto;
+        text-align: center;
+    }
+    .third-box{
+        width: 100%;
+        margin-left: auto;
+        text-align: center;
+    }
+    .hero-content h1{
+        color: #000;
+    }
+    .hero-content .span2{
+        color: #fff;
+    }
+    .hero-column-img img{
+        width: 100%;
+    }
+    .product-slider{
+        width: 100%;
+    }
+    #product-section{
+        padding: 0;
+    }
+    #cloud-section{
+        text-align: center;
+    }
+    #ecosystem{
+        text-align: center;
+    }
+    .services{
+        padding: 0;
+    }
+    .text-content{
+        text-align: center;
+    }
+ 
+    .hero-right-img{
+        text-align: center;
+        width: 100%;
+    }
+    .review{
+        width: 80%;
+        margin: auto;
+    }
+    #product-slider-background{
+        background: none;
+    }
+    .hero-img .security{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+  }

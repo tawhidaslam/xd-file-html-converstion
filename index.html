@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <!--font awesome css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+   <!--vendors css file-->
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <!--main css-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <style>
+        @font-face {
+        font-family: Proxima;
+        src: url(fonts/PROXIMANOVA-REGULAR.OTF),
+            url(fonts/PROXIMA-NOVA-BOLD.OTF);
+}
+    </style>
+
+    <title>XD TO HTML</title>
+</head>
+<body>
+    
+<!--start header section-->
+<header id="home" class="clearfix">
+    <nav class="">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-3 logo-area ">
+                <a href="#home">
+                    <img src="img/logo.png" alt="Cuda" class="logo float-left">
+                </a>
+            </div>
+            <div class="col-md-9 col-sm-9 col-9">
+                <ul class="main-nav float-right">
+                    <li class="active"><a href="#home">home</a></li>
+                    <li><a href="#product-section">Product</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#cloud-section">Cloud</a></li>
+                    <li><a href="#about-us">About</a></li>
+                    <li class="btn btn-warning"><a href="#">Contact</a></li>
+                </ul>
+                <!--mobile menu-->
+                <div class="mobile-menu">
+                    <span onclick="openNav()">&#9776</span>
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void()" onclick="closeNav()" class="closebtn">&times;</a>
+                        <div class="overlay-content">
+                            <a onclick="closeNav()" href="#home">home</a>
+                            <a onclick="closeNav()" href="#product-section">Product</a>
+                            <a onclick="closeNav()" href="#about-us">About</a>
+                            <a onclick="closeNav()" href="#services">Services</a>
+                            <a onclick="closeNav()" href="#cloud-section">cloud</a>
+                            <a class="btn btn-warning" onclick="closeNav()" href="#contact">contact</a>
+                        </div>
+                    </div>
+                </div>
+                <!--mobile menu end-->
+            </div>
+        </div>
+    </nav>
+    
+ <div class="hero-content text-sm-center text-lg-left clearfix">
+    <div class="row align-items-center text-lg-left">
+        <div class="col-lg-6 col-md-12 text-content pt-lg-0 pt-md-5 pt-sm-0">
+                    <p class="small-description">TheHive is the world’s leading Open Source.</p>
+                    <h1> Security Incident <br class="d-sm-none"> <span class="span2">Response Platform</span> </h1>
+                    <div class="mybtn pt-lg-3">
+                        <button class="btn1">What we offer?</button>
+                        <button class="btn2"><i class="fas fa-play"></i></button>  
+                    </div>
+        </div>
+        <div class="col-lg-6 hero-column-img">
+            <img src="assets/hero-culumn.svg" class="img-fluid" alt="">
+        </div>
+    </div>
+ </div>
+</header>
+<!-- end header section -->
+<!-- about us section -->
+    <section id="about-us" class="p-lg-5 p-sm-2 mt-lg-5">
+        <div class="about-content">
+            <div class="row pb-5">
+                <div class="col text-lg-left text-sm-center about-text">
+                    <h2>ABOUT US</h2>
+                    <P> <span class="span1">Strange</span><span class="span2">Bee</span> is the company, founded by three co-creators of TheHive, to provide its users with deep <br> expertise and a unique know-how.</P>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="about-left">
+                        <img src="img/desktop.png" class="img-fluid pb-5" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 ">
+                    <div class="first-box text-white text-lg-left text-sm-center">
+                        <div class="row p-2 my-lg-2">
+                            <div class="col-md-3 m-auto">
+                                <img src="img/icon3.png" alt="">
+                            </div>
+                            <div class="col-md-9 m-auto pl-lg-3">
+                                <div class="content-text pl-lg-3">
+                                    <h3>Consulting</h3>
+                                     <p>Delectus recteque has ne, no pro tation commodo. Ea libris utamur vix, in sumo augue soluta vis.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-box text-lg-left text-sm-center">
+                        <div class="row p-2 my-lg-2">
+                            <div class="col-md-3 m-auto">
+                                <img src="img/icon2.png" alt="">
+                            </div>
+                            <div class="col-md-9 m-auto pl-lg-3">
+                                <div class="content-text pl-lg-3">
+                                    <h3>Consulting</h3>
+                                     <p>Delectus recteque has ne, no pro tation commodo. Ea libris utamur vix, in sumo augue soluta vis.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third-box text-lg-left text-sm-center">
+                        <div class="row p-2 my-lg-2">
+                            <div class="col-md-3 text-sm-center m-auto">
+                                <img src="img/icon1.png" alt="">
+                            </div>
+                            <div class="col-md-9 m-auto text-sm-center pl-lg-3">
+                                <div class="content-text pl-lg-3">
+                                    <h3>Consulting</h3>
+                                     <p>Delectus recteque has ne, no pro tation commodo. Ea libris utamur vix, in sumo augue soluta vis.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- about us end -->
+
+<!-- Ecosystem section start -->
+    <section id="ecosystem-main"  class="p-lg-5 p-sm-2">
+            <div id="ecosystem">
+                <div class="row pb-5">
+                    <div class="col">
+                        <h2>Ecosystem</h2>
+                        <P> <span class="span1">Strange</span><span class="span2">Bee</span> is the company, founded by three co-creators of TheHive, to provide its users with deep <br> expertise and a unique know-how.</P>
+                    </div>
+                </div>
+                <div class="row learn-more shadow bg-white align-items-center" id="ecos">
+                    <div class="col-md-4 pb-5 text-center learn-blog">
+                        <img src="img/logobottom1.png" class="pt-5" alt="">
+                        <p class="p-4">TheHive helps you manage, organise, correlate your incidents and automate your forensics analysis, while leveraging a powerful collaborative capability</p>
+                        <a href="#" class="learn-btn">Learn more</a>
+                    </div>
+                    <div class="col-md-4 pb-5 border-right border-left learn-blog text-center">
+                        <img src="img/logobottom1.png" class="pt-5" alt="">
+                        <p class="p-4">TheHive helps you manage, organise, correlate your incidents and automate your forensics analysis, while leveraging a powerful collaborative capability</p>
+                        <a href="#" class="learn-btn">Learn more</a>
+                    </div>
+                    <div class="col-md-4 pb-5 text-center learn-blog">
+                        <img src="img/logobottom1.png" class="pt-5" alt="">
+                        <p class="p-4">TheHive helps you manage, organise, correlate your incidents and automate your forensics analysis, while leveraging a powerful collaborative capability</p>
+                        <a href="#" class="learn-btn">Learn more</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+<!-- Ecosystem section end -->
+
+<!-- service section start -->
+    
+    <section id="services" class="p-lg-5 p-sm-2">
+        <div class="row text-center">
+            <div class="col">
+                <h2>Services</h2>
+                <P> <span class="span1">Strange</span><span class="span2">Bee</span> is the company, founded by three co-creators of TheHive, to provide its users with deep <br> expertise and a unique know-how.</P>
+            </div>
+        </div>
+        <div class="row rounder-image text-center align-items-center">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <img class="rounded rounded-circle p-3" src="img/rounded1.png" alt="">
+            </div>
+            <div class="col-md-4">
+                <h4>Support</h4>
+                <p class="short-des">We hold your hand!</p>
+            </div>
+            <div class="col-md-2"></div>
+        </div> 
+        <div class="row rounder-image text-center align-items-center">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <h4>Professional Services</h4>
+                <p class="short-des">We hold your hand!</p>
+            </div>
+            <div class="col-md-4">
+                <img class="rounded rounded-circle p-3" src="img/rounded3.png" alt="">
+            </div>
+
+            <div class="col-md-2"></div>
+        </div> 
+        <div class="row rounder-image text-center align-items-center">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <img class="rounded rounded-circle p-3" src="img/rounded1.png" alt="">
+            </div>
+            <div class="col-md-4">
+                <h4>Training</h4>
+                <p class="short-des">We hold your hand!</p>
+            </div>
+            <div class="col-md-2"></div>
+        </div> 
+    </section>
+<!-- service section end -->
+
+<!-- product section start -->
+<section id="product-section" class="p-lg-5 p-sm-0">
+    <div class="row text-center">
+        <div class="col">
+            <h2>Our products</h2>
+            <P> <span class="span1">Strange</span><span class="span2">Bee</span> is the company, founded by three co-creators of TheHive, to provide its users with deep <br> expertise and a unique know-how.</P>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product-slider ">
+          <div class="col"> 
+              <div class="row p-lg-5 p-sm-1" id="product-slider-background">
+                  <div class="col-md-6">
+                        <img src="img/cumputer.svg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-6">
+                      <div class="features-title">
+                        <h2>What’s <span class="span2">TheHive</span></h2>
+                      </div>
+                      <div class="features-short-des">
+                        <h4>A 4-IN-1 SECURITY INCIDENT RESPONSE PLATFORM</h4>
+                      </div>
+                      <div class="product-big-des">
+                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id fugiat accusantium quos perspiciatis recusandae sequi minima nulla sint.</p>
+                      </div>
+                      <div class="product-btn">
+                          <button class="btn text-white btn-warning btn-lg" >Github</button>
+                          <button class="btn text-white btn-info btn-lg" >Documentation</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col"> 
+            <div class="row p-lg-5 p-sm-0" id="product-slider-background">
+                <div class="col-md-6">
+                      <img src="img/cumputer.svg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6">
+                    <div class="features-title">
+                      <h2>What’s <span class="span2">TheHive</span></h2>
+                    </div>
+                    <div class="features-short-des">
+                      <h4>A 4-IN-1 SECURITY INCIDENT RESPONSE PLATFORM</h4>
+                    </div>
+                    <div class="product-big-des">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id fugiat accusantium quos perspiciatis recusandae sequi minima nulla sint.</p>
+                    </div>
+                    <div class="product-btn">
+                        <button class="btn text-white btn-warning btn-lg" >Github</button>
+                        <button class="btn text-white btn-info btn-lg" >Documentation</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </div>   
+</section>
+<!-- product features -->
+
+    <section id="features" class="p-lg-5 p-sm-0">
+        <div class="row">
+            <div class="col-md-4 shadow-sm">
+               <div class="features-box features-box-1 p-4">
+                <img src="img/features1.png" alt="">
+                <h3>Multi tenancy</h3>
+                <p>Create several organisations, populate them with the required users, customise the default settings for analyzers and responders and start investigating.</p>
+               </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="features-box features-box-2 p-5">
+                    <img src="img/features2.png" alt="">
+                    <h3>Multi tenancy</h3>
+                    <p>Create several organisations, populate them with the required users, customise the default settings for analyzers and responders and start investigating.</p>
+                   </div>
+            </div>
+            <div class="col-md-4 shadow-sm">
+                <div class=" features-box-1 p-5 features-box-3">
+                 <h3>Multi tenancy</h3>
+                 <p>Create several organisations, populate them with the required users, customise the default settings for analyzers and responders and start investigating.</p>
+                </div>
+             </div>
+        </div>
+        <div class="row p-lg-5 p-sm-2">
+            <div class="col-md-4 shadow-sm">
+               <div class="features-box features-box- p-4 features-box-6">
+                <img src="img/features1.png" alt="">
+                <h3>Multi tenancy</h3>
+                <p>Create several organisations, populate them with the required users, customise the default settings for analyzers and responders and start investigating.</p>
+               </div>
+            </div>
+            <div class="col-md-4 shadow-sm">
+                <div class="features-box features-box-1 p-4 features-box-5">
+                 <img src="img/features1.png" alt="">
+                 <h3>Multi tenancy</h3>
+                 <p>Create several organisations, populate them with the required users, customise the default settings for analyzers and responders and start investigating.</p>
+                </div>
+             </div>
+             <div class="col-md-4 shadow-sm">
+                <div class="features-box features-box-1 p-4 features-box-6">
+                 <img src="img/features1.png" alt="">
+                 <h3>Multi tenancy</h3>
+                 <p>Create several organisations, populate them with the required users, customise the default settings for analyzers and responders and start investigating.</p>
+                </div>
+             </div>
+        </div>
+    </section>
+<!-- product section end -->
+<!-- Cloud section start -->
+    <section id="cloud-section" class="p-lg-5 p-sm-2">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-6">
+                <h3>Cloud</h3>
+                <h4>Now available on AWS and Azure!</h4>
+                <p>StrangeBee provides production-ready cloud images of TheHive and Cortex on the most popular marketplaces.
+                    Click on each marketplace logo for more information.</p>
+                    <div class="row box1">
+                     <div class="col">
+                        <h4 class="text-white">Get notified about 
+                            our <br> cloud offering updates</h4>
+                            <div class="input-style">
+                            <input type="email"  placeholder="type your email address">
+                            <input type="submit"  class="btn btn-warning"  value="submit">
+                        </div>
+                     </div>          
+                    </div>
+            </div>
+            <div class="col-md-5 align-items-center">
+                <img class="img-fluid " src="img/side-image.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="client" class="p-5">
+        <div class="row text-center ">
+            <div class="col">
+                <h2>What Our Client’s Say </h2>
+                <P> <span class="span1">Strange</span><span class="span2">Bee</span> is the company, founded by three co-creators of TheHive, to provide its users with deep <br> expertise and a unique know-how.</P>
+            </div>
+        </div>
+    </section>
+
+    
+  
+        <div class="container">
+            <div class="your-class review my-3">
+              <div class="col"> 
+                   <div class="review-text">
+                    <p class="p-lg-5 p-sm-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo inventore, iure labore amet nesciunt voluptatem, natus sint ducimus dicta officiis consequatur, voluptates quos fugit voluptate magllitia? Possimus, ullam praesentium!</p>
+                   </div>
+
+                   <div class="about-client pl-lg-5 pl-sm-1 text-lg-center">
+                    <div class="client-name">
+                        <h4>Denis Robinson</h4>
+                    </div>
+                    <div class="client-title">customer</div>
+                </div>
+              </div>
+              <div class="col"> 
+                <div class="review-text">
+                 <p class="p-lg-5 p-sm-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo inventore, iure labore amet nesciunt voluptatem, natus sint ducimus dicta officiis consequatur, voluptates quos fugit voluptate magllitia? Possimus, ullam praesentium!</p>
+                </div>
+
+                 <div class="about-client pl-lg-5 pl-sm-1 text-lg-center">
+                     <div class="client-name">
+                         <h4>Denis Robinson</h4>
+                     </div>
+                     <div class="client-title">customer</div>
+                 </div>
+           </div>
+            </div>
+        </div>
+        <div class="client-images text-center">
+            <div class="col">
+                <img src="img/peple.png" class="img-fluid" alt="">
+            </div>
+        </div>
+
+    <section id="footer">
+        <div class="footer-content mt-lg-5 pb-5">
+            <div class="row"> 
+                <div class="col-md-10">
+                    <h3 class="text-white">Let's Create <br> Something Together</h3>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint accusamus, esse harum natus ad numquam vero est veritatis.</p>
+                </div>
+                <div class="col-md-2 my-lg-5">
+                    <button class="btn btn-warning btn-lg align-items-cente">Get Started</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer1 footer ">
+                        <img src="img/white-logo.png" width="60%" alt="">
+                        <p class="phone">+012 3456 789</p>
+                    </div>
+                </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="footer2 footer ">
+                    <h5>Quick links</h5>
+                    <ul>
+                        <li><a href="#">Our service</a></li>
+                        <li><a href="#">Case study</a></li>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">review</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="footer2 footer ">
+                    <h5>Quick links</h5>
+                    <ul>
+                        <li><a href="#">Our service</a></li>
+                        <li><a href="#">Case study</a></li>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">review</a></li>
+                    </ul>
+                </div>
+            </div>
+                <div class="col-md-3 col-sm-6">
+                   <div class="footer-4 footer">
+                    <h5>Get started</h5>
+                    <input type="email" placeholder="Your email" class="form-control">
+                    <input class="btn btn-warning mt-lg-2" type="submit">
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Cloud section end -->
+
+   <!--js script--> 
+   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+   
+   <script src="vendors/js/jquery-slim.min.js"></script>
+   <script src="vendors/js/popper.min.js"></script>
+   <script src="vendors/js/bootstrap.min.js"></script>
+   <script src="vendors/js/respond.min.js"></script>
+   <script src="vendors/js/jquery.waypoints.min.js"></script>
+   <script src="vendors/js/selectivizr.js"></script>
+   <script type="text/javascript" src="slick/slick.min.js"></script>
+   <script src="js/main.js"></script>
+
+
+   <script type="text/javascript">
+    $(document).ready(function(){
+      $('.your-class').slick();
+    });
+
+        $(document).ready(function(){
+            $('.product-slider').slick();
+        });
+  </script>
+</body>
+</html>
